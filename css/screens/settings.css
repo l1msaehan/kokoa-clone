@@ -4,12 +4,48 @@
     align-items: center;
     font-size: 24px;
     font-weight: 600;
-    margin: 50px 25px;
+    padding: 50px 25px;
 }
 .setting-header i {
     font-size: 30px;
 }
-.main-screen__settings {
-    overflow-y: scroll;
+.settings__li h2 {
+    font-size: 23px;
+    display: flex;
+    align-items: center;
 }
-
+.settings__li__name i {
+ margin: 0 25px 0 8px;   
+ font-size:  27px;
+}
+.settings__li {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.settings__li__setting-value {
+    opacity: 0.6;
+}
+.main-screen__settings li:last-child {
+    border-bottom: none;
+}
+.settings__divider {
+    height: 1px;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 0;
+}
+.settings__li__name span {
+    font-size: 12px;
+    height: 21px;
+    width: 21px;
+    font-weight: 700;
+    margin-left: 9px;
+}
+.settings__devided-space:nth-child(3) {
+    padding-top: 50px;
+}
