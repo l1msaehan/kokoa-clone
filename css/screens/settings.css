@@ -1,0 +1,15 @@
+.setting-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 50px 25px;
+}
+.setting-header i {
+    font-size: 30px;
+}
+.main-screen__settings {
+    overflow-y: scroll;
+}
+

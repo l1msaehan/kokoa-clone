@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More - Kokoa Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt fa-2xs"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">More</h1>
+      <div class="screen-header__icons">
+        <span>
+          <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+        </span>
+        <span>
+          <i class="fa-solid fa-music fa-xl"></i>
+        </span>
+        <span>
+          <a href="settings.html"><i class="fa-solid fa-gear fa-xl"></i></a>
+          <span class="tiny-badge screen-header__tiny-badge"></span>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            class="user-component__profile user-component__profile--xl"
+            src="https://as1.ftcdn.net/v2/jpg/00/64/67/52/1000_F_64675209_7ve2XQANuzuHjMZXP3aIYIpsDKEbF5dD.jpg"
+          />
+          <div class="user-component__data">
+            <h4 class="user-component__title user-component__title--bold">
+              Saehan
+            </h4>
+            <h6 class="user-component__subtitle">
+              +82 10-0111-0111
+              <span>
+                <i class="fa-solid fa-exclamation fa-xs"></i>
+              </span>
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column--more-screen">
+          <i class="fa-regular fa-message fa-2xl"></i>
+        </div>
+      </div>
+
+      <div class="more-screen-top-menu">
+        <div class="more-screen-top-menu__btns">
+          <div class="more-screen-top-menu__icon">
+            <i class="fa-regular fa-calendar"></i>
+          </div>
+          <h5 class="more-screen-top-menu__text">Calendar</h5>
+        </div>
+        <div class="more-screen-top-menu__btns">
+          <div class="more-screen-top-menu__icon">
+            <i class="fa-regular fa-hard-drive"></i>
+            <span class="tiny-badge nav__tiny-badge"></span>
+          </div>
+          <h5 class="more-screen-top-menu__text">Talk Drive</h5>
+        </div>
+        <div class="more-screen-top-menu__btns">
+          <div class="more-screen-top-menu__icon">
+            <i class="fa-regular fa-face-smile"></i>
+          </div>
+          <h5 class="more-screen-top-menu__text">Emoticons</h5>
+        </div>
+        <div class="more-screen-top-menu__btns">
+          <div class="more-screen-top-menu__icon">
+            <i class="fa-solid fa-brush"></i>
+          </div>
+          <h5 class="more-screen-top-menu__text">Themes</h5>
+        </div>
+      </div>
+      <div class="more-screen-top-menu">
+        <div class="more-screen-top-menu__btns">
+          <div class="more-screen-top-menu__icon">
+            <i class="fa-solid fa-k"></i>
+          </div>
+          <h5 class="more-screen-top-menu__text">Account</h5>
+        </div>
+        <div class="more-screen-top-menu__btns">
+          <div class="more-screen-top-menu__icon">
+            <i class="fa-regular fa-comments"></i>
+          </div>
+          <h5 class="more-screen-top-menu__text">Openchat</h5>
+        </div>
+        <div class="more-screen-top-menu__btns">
+          <div class="more-screen-top-menu__icon"></div>
+          <h5 class="more-screen-top-menu__text"></h5>
+        </div>
+        <div class="more-screen-top-menu__btns">
+          <div class="more-screen-top-menu__icon"></div>
+          <h5 class="more-screen-top-menu__text"></h5>
+        </div>
+      </div>
+
+      <div class="suggestions">
+        <h3 class="suggestions__header">Suggestions</h3>
+        <div class="suggestions__items">
+          <div class="suggestions__item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/a/ab/KakaoStory_Logo.png"
+              class="suggestions_icon"
+            />
+            <h5>Kokoa Story</h5>
+          </div>
+          <div class="suggestions__item">
+            <img
+              src="data:image/jpeg;base64,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"
+              class="suggestions_icon"
+            />
+            <h5>Kokoa friends</h5>
+          </div>
+          <div class="suggestions__item">
+            <img
+              src="https://cdn6.aptoide.com/imgs/5/b/f/5bf6a19bfa89d5b9faa1b23e2cfe7c3d_icon.png"
+              class="suggestions_icon"
+            />
+            <h5>Friends Gem</h5>
+          </div>
+          <div class="suggestions__item"></div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fa-regular fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <i class="fa-regular fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="tiny-badge nav__tiny-badge"></span>
+            <i class="fa-solid fa-ellipsis fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/51b09530fe.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

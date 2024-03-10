@@ -1,0 +1,113 @@
+.find-screen-top-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+.find-screen-top-menu__btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.find-screen-top-menu__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 85px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    height: 40px;
+}
+.find-middle-space {
+    height: 300px;
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+}
+.find-middle-space__header {
+    font-size: 17px;
+    opacity: 0.6;
+    margin-top: 20px;
+}
+.find-middle-space__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 20px;
+    margin-top: -20px;
+    opacity: 0.5;
+}
+.find-bottom-space__header {
+    margin: 20px 0;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+.find-bottom-space__header h5 {
+    opacity: 0.6;
+}
+.find-bottom-space__header h6 {
+    opacity: 0.3;
+}
+.find-bottom-space__main {
+    margin-top: -16px;
+}
+.find-bottom-space__contents {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 16px 0;
+}
+.find-bottom-space__contents:last-child {
+    border-bottom: none;
+}
+.find-bottom-space__contents__data h4 {
+    font-size: 21px;
+}
+.find-bottom-space__contents__data h5 {
+    font-size: 19px;
+    opacity: 0.5;
+    margin: 10px 0;
+}
+.find-bottom-space__contents__data div {
+    display: flex;
+    align-items: center;
+}
+.find-bottom-space__contents__data_tiny-img {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+.find-bottom-space__contents__data div span:nth-child(2),
+.find-bottom-space__contents__data div span:nth-child(3) {
+    font-size: 17px;
+}
+.find-bottom-space__contents__data div span:nth-child(2) {
+    color: rgba(0, 0, 0, 0.4);
+    padding-right: 7px;
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
+    margin-right: 7px;
+}
+.find-bottom-space__contents__data div span:nth-child(3) {
+    color: #FF6FC7;
+}
+.find-bottom-space__contents__img {
+    height: 115px;
+    width: 115px;
+    border-radius: 10px;
+}
+.find-bottom-space__contents__img-likes {
+    position: absolute;
+    right: 6px;
+    bottom: 22px;
+    color: white;
+    display: block;
+    height: 26px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px 10px 2px 10px;
+}

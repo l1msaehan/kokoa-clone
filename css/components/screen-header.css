@@ -1,0 +1,24 @@
+.screen-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 60px 25px 25px 25px;
+}
+.screen-header__title {
+    font-size: 30px;
+    font-weight: 600;
+}
+.screen-header__icons {
+    font-size: 20px;
+}
+.screen-header__icons > span {
+    margin-left: 23px;
+}
+.screen-header__icons > span:last-child {
+    position: relative;
+}
+.screen-header__tiny-badge {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+}
